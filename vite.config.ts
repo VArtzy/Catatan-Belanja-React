@@ -9,6 +9,7 @@ export default defineConfig({
         VitePWA({
             registerType: "autoUpdate",
             manifest: {
+                name: 'Catanja',
                 icons: [
                     {
                         src: "/pwa-192x192.png",
